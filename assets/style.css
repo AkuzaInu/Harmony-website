@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+:root {
+    --primary: #7765F1;
+    --light: #EEEEEE;
+    --dark: #36393F;
+    --dark2: #2F3136;
+    --dark3: #292B2F;
+    --dark4: #202225;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark);
+    color: var(--light);
+    border-top: 6px var(--primary) solid;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+Navbar
+*/
+.navbar {
+    display: flex;
+    padding: 16px 32px;
+    place-items: center;
+    background-color: var(--dark3);
+}
+
+.navbar-nav {
+    display: flex;
+    padding: 0px 450px;
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 16px 24px;
+    color: var(--light);
+    border-radius: 99px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    background-color: var(--primary);
+}
+
+.nav-item {
+    padding: 0px 30px;
+}
+
+
+/* 
+Buttons
+*/
+.btn {
+    border-radius: 99px;
+    font-size: 16px;
+    padding: 10px;
+    color: var(--light);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.invite-btn {
+    border: 3px solid var(--primary);
+    transition: 0.5s;
+    justify-content: flex-end;
+}
+
+.invite-btn:hover {
+    background-color: var(--primary)
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-secondary {
+    background-color: var(--dark3);
+}
+
+
+/* 
+Header
+*/
+.heading {
+    padding: 200px 100px;
+    display: block;
+
+}
+
+.logotext {
+    margin: 0px 10px;
+}
+
+.logo {
+    float: left;
+    padding: 100px 75px 100px 400px;
+}
+
+.title {
+    line-height: 90px;
+    margin-bottom: -20px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+/* 
+Features
+*/
+.features {
+    text-align: center;
+    background: var(--primary);
+    padding: 60px 50px;
+}
+
+.commands {
+    text-align: center;
+    padding: 60px 50px;
+}
+
+.cards {
+    display: flex;
+    margin-left: 65px;
+}
+
+.card-body {
+    background-color: var(--dark2);
+    padding: 20px 20px;
+    margin: 0px 100px;
+    border-radius: 30px;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+
+/* 
+Page end
+*/
+.page-end {
+    background-color: var(--dark2);
+}
+
+.start {
+    /* margin: 0px 600px; */
+    text-align: center;
+}
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* 
+Callback succes
+*/
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
